@@ -1,9 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Food Flock - Tinder for restaurants.",
+  "text": "Swipe with a partner to find your perfect dining match.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Download"
     },
     {
       "title": "Learn more",

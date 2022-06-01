@@ -49,7 +49,7 @@ const Footer = ({ t }: any) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
+          {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
@@ -78,8 +78,8 @@ const Footer = ({ t }: any) => {
                 {t("Customer Support")}
               </Large>
             </Col>
-          </Row>
-          <Row justify="space-between">
+          </Row> */}
+          {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
@@ -123,7 +123,7 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </FooterSection>
       <Extra>
@@ -136,7 +136,7 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="fflogo.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -144,28 +144,28 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
+              {/* <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
-              />
-              <SocialLink
+              /> */}
+              {/* <SocialLink
                 href="https://twitter.com/Adrinlolx"
                 src="twitter.svg"
-              />
+              /> */}
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/company/foodflock/about/"
                 src="linkedin.svg"
               />
-              <SocialLink
+              {/* <SocialLink
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
-              />
-              <a href="https://www.buymeacoffee.com/adrinlol">
+              /> */}
+              {/* <a href="https://www.buymeacoffee.com/adrinlol">
                 <img
                   src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
                   alt="Buy me a pizza"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>
