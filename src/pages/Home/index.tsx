@@ -56,21 +56,6 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       />
-      <ul>
-        <li>
-          <a href="/founders.html">Founders</a>
-        </li>
-
-        <li>
-          <a href="/privacy.html">Privacy</a>
-        </li>
-        <li>
-          <a href="/testimonials.html">Testimonials</a>
-        </li>
-        <li>
-          <a href="/journey.html">Journey</a>
-        </li>
-      </ul>
     </Container>
   );
 };
